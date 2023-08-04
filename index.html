@@ -11,8 +11,31 @@
     <title>Financial Tracking</title>
   </head>
   <body>
-    <h1>Financial Tracking</h1>
-    <h2>Track your expenses</h2>
+    <div class="container">
+      <form>
+        <h1>Financial Tracking</h1>
+        <!-- <h2>Track your expenses</h2> -->
+        <!-- CATEGORY -->
+        <label for="category-select">Category:</label>
+        <select id="category-select">
+          <option value="Food & Beverages">Food & Beverages</option>
+          <option value="Apartement Cost">Apartement Cost</option>
+          <option value="Transportation">Transportation</option>
+          <option value="Entertainment & Others">Entertainment & Others</option>
+        </select>
+
+        <!-- DATE -->
+        <label for="date-input">Date:</label>
+        <input type="date" id="date-input" />
+
+        <!-- AMOUNT -->
+        <label for="amount-input">Amount:</label>
+        <input type="number" id="amount-input" placeholder="Amount (Rp)" />
+
+        <!-- BUTTON -->
+        <button id="add-btn">ADD</button>
+      </form>
+    </div>
 
     <script src="./script/script.js"></script>
   </body>
