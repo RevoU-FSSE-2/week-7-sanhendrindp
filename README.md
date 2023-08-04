@@ -19,3 +19,41 @@ In this week 7 assignment, i created an website app call Financial Tracking wher
     <br>
     <em>Website Overview</em>
 </p>
+
+# Initialization & Custom Script
+
+This assignment is created using **Node.js** ecosystem. The first step to create Node.js project is using npm init to create a package called **package.json**.
+
+```bash
+npm init -y
+```
+
+After package.json created, the script is ready to be customized. Some of the customize script are:
+
+1. **compile** : To compile the typescript file into javascript file.
+
+2. **script** : To run scripts from the command line.
+
+3. **watch** : To run watch mode.
+
+<p align="center">
+    <img src="images/custom-script.PNG" width="700">
+    <br>
+    <em>Custom Script</em>
+</p>
+
+---
+
+<p align="center">Thank you 🙏</p>
+
+<p align="center">
+  <a href="https://github.com/EddieHubCommunity" target="_blank" rel="noopener noreferrer">
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="built with love badge" />
+ </a>
+  <a href="https://github.com/EddieHubCommunity" target="_blank" rel="noopener noreferrer">
+    <img src="https://forthebadge.com/images/badges/made-with-markdown.svg" alt="made with markdown badge" />
+ </a>
+  <a href="https://github.com/EddieHubCommunity" target="_blank" rel="noopener noreferrer">
+    <img src="https://forthebadge.com/images/badges/open-source.svg" alt="open source badge" />
+ </a>
+ </p>
