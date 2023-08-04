@@ -14,7 +14,7 @@
     <div class="container">
       <form>
         <h1>Financial Tracking</h1>
-        <!-- <h2>Track your expenses</h2> -->
+        <h3>Track your expenses</h3>
         <!-- CATEGORY -->
         <label for="category-select">Category:</label>
         <select id="category-select">
@@ -35,6 +35,30 @@
         <!-- BUTTON -->
         <button id="add-btn">ADD</button>
       </form>
+    </div>
+
+    <!-- EXPENSE TABLE -->
+    <div class="expenses-list">
+      <h2>Expenses List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="expense-table-body"></tbody>
+        <tfoot>
+          <tr>
+            <td>Total:</td>
+            <td id="total-amount"></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
     </div>
 
     <script src="./script/script.js"></script>

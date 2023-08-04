@@ -14,6 +14,7 @@ html {
   background-color: rgb(77, 77, 77);
 }
 
+/* FORM */
 .container {
   width: 100%;
   height: 50%;
@@ -35,8 +36,13 @@ form {
 }
 
 form h1 {
-  /* margin-bottom: 20px; */
-  margin: 0 auto 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+form h3 {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 form label {
@@ -66,4 +72,46 @@ form button {
   width: 150px;
   margin: 20px auto 0;
   border-radius: 5px;
+}
+
+/* EXPENSE TABLE */
+.expenses-list {
+  margin: 20px;
+}
+
+.expenses-list h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  text-align: left;
+  background-color: white;
+}
+
+th {
+  background-color: rgb(252, 108, 108);
+}
+
+tfoot td {
+  font-weight: 800;
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
