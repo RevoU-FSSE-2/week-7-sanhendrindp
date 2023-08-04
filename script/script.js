@@ -47,4 +47,10 @@ addBtn.addEventListener("click", function (e) {
             expensesTableBody.removeChild(newRow);
         }
     });
+    const expense = expenses[expenses.length - 1];
+    categoryCell.textContent = expense.category;
+    dateCell.textContent = expense.date;
+    amountCell.textContent = expense.amount.toString();
+    deleteCell.appendChild(deleteBtn);
+    //   console.log(expenses);
 });
